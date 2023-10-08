@@ -1,0 +1,110 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,500&display=swap');
+
+.app__main{
+    width: 100%;
+    height: 150vh;
+}
+
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.content{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    top: 140vh;
+    margin-left: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 120%;
+    background: var(--color-seaBlue);
+    color: var(--color-yellow);
+    border-radius:30px;
+}
+
+.head{
+    margin-bottom: 2rem;
+    color: var(--color-yellow);
+}
+
+.location-list{
+    color: var(--color-white);
+}
+
+.search{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+}
+
+input.search-bar{
+    background:#7c7c7c2b;
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    color: white;
+    font-family: inherit;
+    font-size: 105%;
+    width: calc(100% - 20px);
+}
+
+h1.temp{
+    margin: 0;
+    margin-bottom: 0.4em;
+}
+
+.description{
+    text-transform: capitalize;
+    margin-left: 2px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.weather.loading{
+    visibility: hidden;
+    max-height: 20px;
+    position:relative;
+}
+
+.weather.loading:after{
+    visibility: visible;
+    content: "loading...";
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
+
+@media screen and (max-width:1160px){
+    .content{
+        position: absolute;
+        width: 80%;
+        height: 80%;
+        top: 250vh;
+        margin-left: 7rem;
+        margin-right: 5rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: var(--color-yellow);
+        background:var(--color-seaBlue);
+        font-family: 'Open Sans', sans-serif;
+        font-size: 120%;
+    }
+}
+

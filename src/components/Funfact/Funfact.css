@@ -1,0 +1,36 @@
+.app__header{
+    background-color: var(--color-seaBlue);
+    margin-top: 0;
+}
+
+.app__header_h1{
+font-family: var(--font-base);
+color: var(--color-yellow);
+letter-spacing: 0.04em;
+text-transform: uppercase;
+line-height: 117px;
+font-size: 90px;
+}
+
+.app__header-img img{
+    width: 80%;
+}
+.fun-facts{
+    color: var(--color-golden);
+    font-weight: 400;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .fun{
+    background-color: #046A97;
+    width: 100%;
+    height: max-content;
+    margin-bottom: 0;
+    color: white;
+}
+
+.funheading{
+    color: #FEA534;
+    font-size: 1.3rem;
+}

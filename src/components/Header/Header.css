@@ -1,0 +1,17 @@
+.app__header{
+    background-color: var(--color-seaBlue);
+    margin-top: 20px;
+}
+
+.app__header_h1{
+font-family: var(--font-base);
+color: var(--color-yellow);
+letter-spacing: 0.04em;
+text-transform: uppercase;
+line-height: 117px;
+font-size: 90px;
+}
+
+.app__header-img img{
+    width: 80%;
+}
